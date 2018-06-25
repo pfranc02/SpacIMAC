@@ -1,0 +1,3 @@
+include_directories(include)
+file(GLOB_RECURSE SRC_FILES *.cpp *.hpp)
+add_library(glimac ${SRC_FILES} src/project/Astre.cpp include/project/Astre.hpp src/project/Time.cpp include/project/Time.hpp src/project/Soleil.cpp include/project/Soleil.hpp src/project/Planete.cpp include/project/Planete.hpp src/project/Satellite.cpp include/project/Satellite.hpp src/project/Planete_tellurique.cpp include/project/Planete_tellurique.hpp src/project/Planete_gazeuse.cpp include/project/Planete_gazeuse.hpp src/project/Texte.cpp include/project/Texte.hpp src/project/AppManager.cpp include/project/AppManager.hpp src/project/RenderManager.cpp include/project/RenderManager.hpp)
