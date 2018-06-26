@@ -1,0 +1,749 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="PROJET_SpacIMAC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROJET_SpacIMAC">
+				<Option output="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/PROJET_SpacIMAC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJET_SpacIMAC"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PROJET_SpacIMAC/fast">
+				<Option output="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/PROJET_SpacIMAC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/GL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm"/>
+					<Add directory="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 PROJET_SpacIMAC/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/COURS/IMAC 2/PROJET_SpacIMAC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/TP_Spac__IMAC/SDLtemplate.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/TP_Spac__IMAC/main_projet.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/TP_Spac__IMAC/main_test_cpp.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/TP_Spac__IMAC/test_soleil.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/TP_Spac__IMAC/test_soleilsave.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/GL/gl.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/GL/glext.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/GL/glu.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_active.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_audio.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_byteorder.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_cdrom.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_config.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_config_win32.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_copying.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_cpuinfo.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_endian.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_error.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_events.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_getenv.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_joystick.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_keyboard.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_keysym.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_loadso.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_main.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_mouse.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_mutex.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_name.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_opengl.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_platform.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_quit.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_rwops.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_stdinc.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_syswm.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_thread.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_timer.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_types.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_version.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/SDL_video.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/begin_code.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL/close_code.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/SDL/include/SDL_image.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL/freeglut.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL/freeglut_ext.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL/freeglut_std.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/freeglut/include/GL/glut.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/eglew.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/freeglut.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/freeglut_ext.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/freeglut_std.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/gl.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/glew.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/glext.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/glu.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/glut.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/glxew.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/dependencies/opengl/include/GL/wglew.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/BBox.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Cone.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/FilePath.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/FreeflyCamera.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Geometry.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Image.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Plane.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Program.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/SDLWindowManager.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Shader.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/Sphere.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/TrackballCamera.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/common.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/glimac/glm.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/AppManager.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Astre.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Planete.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Planete_gazeuse.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Planete_tellurique.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/RenderManager.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Satellite.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Soleil.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Texte.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Texture.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/include/project/Time.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Cone.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/FreeflyCamera.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Geometry.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Image.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Plane.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Program.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/SDLWindowManager.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/SDLWindowManager.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Shader.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/Sphere.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/TrackballCamera.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/common.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/stb_image.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/tiny_obj_loader.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/glimac/tiny_obj_loader.h">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/AppManager.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Astre.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Planete.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Planete_gazeuse.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Planete_tellurique.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/RenderManager.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Satellite.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Soleil.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Texte.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Texture.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/glimac/src/project/Time.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/common.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_features.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_fixes.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_literals.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_noise.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_swizzle.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_swizzle_func.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/_vectorize.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/dummy.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_common.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_common.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_exponential.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_exponential.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_geometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_geometric.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_integer.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_integer.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_matrix.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_matrix.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_noise.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_noise.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_packing.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_packing.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_trigonometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_trigonometric.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_vector_relational.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/func_vector_relational.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/glm.cpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/hint.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_common.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_common.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_exponential.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_exponential.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_geometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_geometric.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_integer.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_integer.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_matrix.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_matrix.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_trigonometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_trigonometric.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_vector_relational.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/intrinsic_vector_relational.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/precision.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/setup.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_float.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_gentype.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_gentype.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_half.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_half.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_int.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x2.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x3.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat2x4.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x2.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x3.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat3x4.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x2.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x3.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_mat4x4.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec1.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec1.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/detail/type_vec2.inl">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/exponential.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/ext.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/fwd.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/geometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/glm.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/integer.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat2x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat2x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat2x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat3x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat3x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat3x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat4x2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat4x3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/mat4x4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/matrix.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/packing.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/trigonometric.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/vec2.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/vec3.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/vec4.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/third-party/include/glm/vector_relational.hpp">
+			<Option target="PROJET_SpacIMAC"/>
+		</Unit>
+		<Unit filename="D:/COURS/IMAC 2/PROJET_SpacIMAC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/common.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Cone.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/FreeflyCamera.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Geometry.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Image.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Plane.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Program.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/SDLWindowManager.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Shader.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/Sphere.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/tiny_obj_loader.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/glimac/TrackballCamera.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/AppManager.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Astre.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Planete.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Planete_gazeuse.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Planete_tellurique.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/RenderManager.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Satellite.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Soleil.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Texte.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Texture.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/glimac/src/project/Time.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/third-party/include/glm/detail/dummy.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/third-party/include/glm/detail/glm.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/TP_Spac__IMAC/main_projet.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/TP_Spac__IMAC/main_test_cpp.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/TP_Spac__IMAC/SDLtemplate.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/TP_Spac__IMAC/test_soleil.cpp.obj"
+  "CMakeFiles/PROJET_SpacIMAC.dir/TP_Spac__IMAC/test_soleilsave.cpp.obj"
+  "PROJET_SpacIMAC.pdb"
+  "PROJET_SpacIMAC.exe"
+  "PROJET_SpacIMAC.exe.manifest"
+  "libPROJET_SpacIMAC.dll.a"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/PROJET_SpacIMAC.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
