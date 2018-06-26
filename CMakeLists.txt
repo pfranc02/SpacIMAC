@@ -1,0 +1,233 @@
+cmake_minimum_required(VERSION 3.10)
+project(PROJET_SpacIMAC)
+
+set(CMAKE_CXX_STANDARD 11)
+
+include_directories(dependencies)
+include_directories(dependencies/freeglut)
+include_directories(dependencies/freeglut/include)
+include_directories(dependencies/freeglut/include/GL)
+include_directories(dependencies/opengl)
+include_directories(dependencies/opengl/include)
+include_directories(dependencies/opengl/include/GL)
+include_directories(dependencies/SDL)
+include_directories(dependencies/SDL/include)
+include_directories(dependencies/SDL/include/GL)
+include_directories(dependencies/SDL/include/SDL)
+include_directories(glimac/include)
+include_directories(glimac/include/glimac)
+include_directories(glimac/include/project)
+include_directories(glimac/src/glimac)
+include_directories(third-party/include)
+include_directories(third-party/include/glm)
+include_directories(third-party/include/glm/detail)
+
+add_executable(PROJET_SpacIMAC
+        dependencies/freeglut/include/GL/freeglut.h
+        dependencies/freeglut/include/GL/freeglut_ext.h
+        dependencies/freeglut/include/GL/freeglut_std.h
+        dependencies/freeglut/include/GL/glut.h
+        dependencies/opengl/include/GL/eglew.h
+        dependencies/opengl/include/GL/freeglut.h
+        dependencies/opengl/include/GL/freeglut_ext.h
+        dependencies/opengl/include/GL/freeglut_std.h
+        dependencies/opengl/include/GL/gl.h
+        dependencies/opengl/include/GL/glew.h
+        dependencies/opengl/include/GL/glext.h
+        dependencies/opengl/include/GL/glu.h
+        dependencies/opengl/include/GL/glut.h
+        dependencies/opengl/include/GL/glxew.h
+        dependencies/opengl/include/GL/wglew.h
+        dependencies/SDL/include/GL/gl.h
+        dependencies/SDL/include/GL/glext.h
+        dependencies/SDL/include/GL/glu.h
+        dependencies/SDL/include/SDL/begin_code.h
+        dependencies/SDL/include/SDL/close_code.h
+        dependencies/SDL/include/SDL/SDL.h
+        dependencies/SDL/include/SDL/SDL_active.h
+        dependencies/SDL/include/SDL/SDL_audio.h
+        dependencies/SDL/include/SDL/SDL_byteorder.h
+        dependencies/SDL/include/SDL/SDL_cdrom.h
+        dependencies/SDL/include/SDL/SDL_config.h
+        dependencies/SDL/include/SDL/SDL_config_win32.h
+        dependencies/SDL/include/SDL/SDL_copying.h
+        dependencies/SDL/include/SDL/SDL_cpuinfo.h
+        dependencies/SDL/include/SDL/SDL_endian.h
+        dependencies/SDL/include/SDL/SDL_error.h
+        dependencies/SDL/include/SDL/SDL_events.h
+        dependencies/SDL/include/SDL/SDL_getenv.h
+        dependencies/SDL/include/SDL/SDL_joystick.h
+        dependencies/SDL/include/SDL/SDL_keyboard.h
+        dependencies/SDL/include/SDL/SDL_keysym.h
+        dependencies/SDL/include/SDL/SDL_loadso.h
+        dependencies/SDL/include/SDL/SDL_main.h
+        dependencies/SDL/include/SDL/SDL_mouse.h
+        dependencies/SDL/include/SDL/SDL_mutex.h
+        dependencies/SDL/include/SDL/SDL_name.h
+        dependencies/SDL/include/SDL/SDL_opengl.h
+        dependencies/SDL/include/SDL/SDL_platform.h
+        dependencies/SDL/include/SDL/SDL_quit.h
+        dependencies/SDL/include/SDL/SDL_rwops.h
+        dependencies/SDL/include/SDL/SDL_stdinc.h
+        dependencies/SDL/include/SDL/SDL_syswm.h
+        dependencies/SDL/include/SDL/SDL_thread.h
+        dependencies/SDL/include/SDL/SDL_timer.h
+        dependencies/SDL/include/SDL/SDL_types.h
+        dependencies/SDL/include/SDL/SDL_version.h
+        dependencies/SDL/include/SDL/SDL_video.h
+        dependencies/SDL/include/SDL_image.h
+        glimac/include/glimac/BBox.hpp
+        glimac/include/glimac/common.hpp
+        glimac/include/glimac/Cone.hpp
+        glimac/include/glimac/FilePath.hpp
+        glimac/include/glimac/FreeflyCamera.hpp
+        glimac/include/glimac/Geometry.hpp
+        glimac/include/glimac/glm.hpp
+        glimac/include/glimac/Image.hpp
+        glimac/include/glimac/Plane.hpp
+        glimac/include/glimac/Program.hpp
+        glimac/include/glimac/SDLWindowManager.hpp
+        glimac/include/glimac/Shader.hpp
+        glimac/include/glimac/Sphere.hpp
+        glimac/include/glimac/TrackballCamera.hpp
+        glimac/include/project/AppManager.hpp
+        glimac/include/project/Astre.hpp
+        glimac/include/project/Planete.hpp
+        glimac/include/project/Planete_gazeuse.hpp
+        glimac/include/project/Planete_tellurique.hpp
+        glimac/include/project/RenderManager.hpp
+        glimac/include/project/Satellite.hpp
+        glimac/include/project/Soleil.hpp
+        glimac/include/project/Texte.hpp
+        glimac/include/project/Texture.hpp
+        glimac/include/project/Time.hpp
+        glimac/src/glimac/common.cpp
+        glimac/src/glimac/Cone.cpp
+        glimac/src/glimac/FreeflyCamera.cpp
+        glimac/src/glimac/Geometry.cpp
+        glimac/src/glimac/Image.cpp
+        glimac/src/glimac/Plane.cpp
+        glimac/src/glimac/Program.cpp
+        glimac/src/glimac/SDLWindowManager.cpp
+        glimac/src/glimac/SDLWindowManager.hpp
+        glimac/src/glimac/Shader.cpp
+        glimac/src/glimac/Sphere.cpp
+        glimac/src/glimac/stb_image.h
+        glimac/src/glimac/tiny_obj_loader.cpp
+        glimac/src/glimac/tiny_obj_loader.h
+        glimac/src/glimac/TrackballCamera.cpp
+        glimac/src/project/AppManager.cpp
+        glimac/src/project/Astre.cpp
+        glimac/src/project/Planete.cpp
+        glimac/src/project/Planete_gazeuse.cpp
+        glimac/src/project/Planete_tellurique.cpp
+        glimac/src/project/RenderManager.cpp
+        glimac/src/project/Satellite.cpp
+        glimac/src/project/Soleil.cpp
+        glimac/src/project/Texte.cpp
+        glimac/src/project/Texture.cpp
+        glimac/src/project/Time.cpp
+        third-party/include/glm/detail/_features.hpp
+        third-party/include/glm/detail/_fixes.hpp
+        third-party/include/glm/detail/_literals.hpp
+        third-party/include/glm/detail/_noise.hpp
+        third-party/include/glm/detail/_swizzle.hpp
+        third-party/include/glm/detail/_swizzle_func.hpp
+        third-party/include/glm/detail/_vectorize.hpp
+        third-party/include/glm/detail/dummy.cpp
+        third-party/include/glm/detail/func_common.hpp
+        third-party/include/glm/detail/func_common.inl
+        third-party/include/glm/detail/func_exponential.hpp
+        third-party/include/glm/detail/func_exponential.inl
+        third-party/include/glm/detail/func_geometric.hpp
+        third-party/include/glm/detail/func_geometric.inl
+        third-party/include/glm/detail/func_integer.hpp
+        third-party/include/glm/detail/func_integer.inl
+        third-party/include/glm/detail/func_matrix.hpp
+        third-party/include/glm/detail/func_matrix.inl
+        third-party/include/glm/detail/func_noise.hpp
+        third-party/include/glm/detail/func_noise.inl
+        third-party/include/glm/detail/func_packing.hpp
+        third-party/include/glm/detail/func_packing.inl
+        third-party/include/glm/detail/func_trigonometric.hpp
+        third-party/include/glm/detail/func_trigonometric.inl
+        third-party/include/glm/detail/func_vector_relational.hpp
+        third-party/include/glm/detail/func_vector_relational.inl
+        third-party/include/glm/detail/glm.cpp
+        third-party/include/glm/detail/hint.hpp
+        third-party/include/glm/detail/intrinsic_common.hpp
+        third-party/include/glm/detail/intrinsic_common.inl
+        third-party/include/glm/detail/intrinsic_exponential.hpp
+        third-party/include/glm/detail/intrinsic_exponential.inl
+        third-party/include/glm/detail/intrinsic_geometric.hpp
+        third-party/include/glm/detail/intrinsic_geometric.inl
+        third-party/include/glm/detail/intrinsic_integer.hpp
+        third-party/include/glm/detail/intrinsic_integer.inl
+        third-party/include/glm/detail/intrinsic_matrix.hpp
+        third-party/include/glm/detail/intrinsic_matrix.inl
+        third-party/include/glm/detail/intrinsic_trigonometric.hpp
+        third-party/include/glm/detail/intrinsic_trigonometric.inl
+        third-party/include/glm/detail/intrinsic_vector_relational.hpp
+        third-party/include/glm/detail/intrinsic_vector_relational.inl
+        third-party/include/glm/detail/precision.hpp
+        third-party/include/glm/detail/setup.hpp
+        third-party/include/glm/detail/type_float.hpp
+        third-party/include/glm/detail/type_gentype.hpp
+        third-party/include/glm/detail/type_gentype.inl
+        third-party/include/glm/detail/type_half.hpp
+        third-party/include/glm/detail/type_half.inl
+        third-party/include/glm/detail/type_int.hpp
+        third-party/include/glm/detail/type_mat.hpp
+        third-party/include/glm/detail/type_mat.inl
+        third-party/include/glm/detail/type_mat2x2.hpp
+        third-party/include/glm/detail/type_mat2x2.inl
+        third-party/include/glm/detail/type_mat2x3.hpp
+        third-party/include/glm/detail/type_mat2x3.inl
+        third-party/include/glm/detail/type_mat2x4.hpp
+        third-party/include/glm/detail/type_mat2x4.inl
+        third-party/include/glm/detail/type_mat3x2.hpp
+        third-party/include/glm/detail/type_mat3x2.inl
+        third-party/include/glm/detail/type_mat3x3.hpp
+        third-party/include/glm/detail/type_mat3x3.inl
+        third-party/include/glm/detail/type_mat3x4.hpp
+        third-party/include/glm/detail/type_mat3x4.inl
+        third-party/include/glm/detail/type_mat4x2.hpp
+        third-party/include/glm/detail/type_mat4x2.inl
+        third-party/include/glm/detail/type_mat4x3.hpp
+        third-party/include/glm/detail/type_mat4x3.inl
+        third-party/include/glm/detail/type_mat4x4.hpp
+        third-party/include/glm/detail/type_mat4x4.inl
+        third-party/include/glm/detail/type_vec.hpp
+        third-party/include/glm/detail/type_vec.inl
+        third-party/include/glm/detail/type_vec1.hpp
+        third-party/include/glm/detail/type_vec1.inl
+        third-party/include/glm/detail/type_vec2.hpp
+        third-party/include/glm/detail/type_vec2.inl
+        third-party/include/glm/common.hpp
+        third-party/include/glm/exponential.hpp
+        third-party/include/glm/ext.hpp
+        third-party/include/glm/fwd.hpp
+        third-party/include/glm/geometric.hpp
+        third-party/include/glm/glm.hpp
+        third-party/include/glm/integer.hpp
+        third-party/include/glm/mat2x2.hpp
+        third-party/include/glm/mat2x3.hpp
+        third-party/include/glm/mat2x4.hpp
+        third-party/include/glm/mat3x2.hpp
+        third-party/include/glm/mat3x3.hpp
+        third-party/include/glm/mat3x4.hpp
+        third-party/include/glm/mat4x2.hpp
+        third-party/include/glm/mat4x3.hpp
+        third-party/include/glm/mat4x4.hpp
+        third-party/include/glm/matrix.hpp
+        third-party/include/glm/packing.hpp
+        third-party/include/glm/trigonometric.hpp
+        third-party/include/glm/vec2.hpp
+        third-party/include/glm/vec3.hpp
+        third-party/include/glm/vec4.hpp
+        third-party/include/glm/vector_relational.hpp
+        TP_Spac__IMAC/main_projet.cpp
+        TP_Spac__IMAC/main_test_cpp.cpp
+        TP_Spac__IMAC/SDLtemplate.cpp
+        TP_Spac__IMAC/test_soleil.cpp
+        TP_Spac__IMAC/test_soleilsave.cpp)
