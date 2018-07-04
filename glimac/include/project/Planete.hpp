@@ -14,9 +14,7 @@ private:
     float perihelion;
     int periode;
     float inclinaison;
-    std::map<std::string,Satellite>satellites;
-
-
+    std::map<std::string,Satellite>Satellites; // map contenant les satellites de la planète
 
 public:
     //getters
@@ -34,7 +32,7 @@ public:
     void setPerihelion(float perihelion);
     void setPeriode(int periode);
     void setInclinaison(float inclinaison);
-    void setSatellites(const std::map<std::string, Satellite> &satellites);
+    void setSatellites(const std::map<std::string, Satellite> &Satellites);
 
 
     //constructeur
@@ -45,8 +43,7 @@ public:
     using Astre::init_text;
     void init_text();
     void create_satellite( std::string n_name, int n_diametre, float n_rot_propre,int n_sm_axis, float n_eccentricite, float n_inclinaison,float plan_aphelion) override;
-    int scale_diametre() override;
-    void display_satellites();
+    int scale_diametre() override; //fonction  modifiant la taille de certaines planètes afin d'avoir un affichage compréhensible
 };
 
 

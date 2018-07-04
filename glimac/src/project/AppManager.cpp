@@ -1,4 +1,5 @@
 #include "project/AppManager.hpp"
+#include "../../include/project/AppManager.hpp"
 
 //getters
 const std::map<std::string, Planete> &AppManager::getSysteme_solaire() const {
@@ -79,7 +80,7 @@ void AppManager::initier_satellite() {
 
     //Satellites de Jupiter
     systeme_solaire["Jupiter"].create_satellite("Callisto",4821,16.6,1882700,0.007,0.19,systeme_solaire["Jupiter"].getAphelion());
-    systeme_solaire["Jupiter"].create_satellite("Ganymède",5262,7.15,1070400,0.001,0.18,systeme_solaire["Jupiter"].getAphelion());
+    systeme_solaire["Jupiter"].create_satellite("Ganymede",5262,7.15,1070400,0.001,0.18,systeme_solaire["Jupiter"].getAphelion());
     systeme_solaire["Jupiter"].create_satellite("Europa",3122,3.55,671100,0.009,0.47,systeme_solaire["Jupiter"].getAphelion());
     systeme_solaire["Jupiter"].create_satellite("Io",3643,1.76,421800,0.004,0.04,systeme_solaire["Jupiter"].getAphelion());
 
@@ -113,7 +114,7 @@ void AppManager::initier_satellite() {
 }
 
 void AppManager::initier_soleil() {
-    soleil = new Soleil(1391400,25);
+    soleil = new Soleil(1391400,27);
 }
 
 void AppManager::create_planete(std::string n_name, int n_diametre, float n_rot_propre, std::string n_type, float n_aphelion,

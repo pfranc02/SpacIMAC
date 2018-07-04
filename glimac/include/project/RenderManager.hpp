@@ -1,19 +1,23 @@
 #pragma once
 #include <iostream>
 #include "AppManager.hpp"
+#include "../glimac/TrackballCamera.hpp"
+#include "../glimac/Plane.hpp"
+#include "../glimac/SDLWindowManager.hpp"
+#include "../glimac/Sphere.hpp"
 #include <glimac/SDLWindowManager.hpp>
 #include <GL/glew.h>
 #include <iostream>
 #include <glimac/Program.hpp>
 #include <glimac/FilePath.hpp>
 #include <glimac/glm.hpp>
-#include <glimac/Image.hpp>
 #include <glimac/Sphere.hpp>
 #include <glimac/Plane.hpp>
 #include <glimac/TrackballCamera.hpp>
 #include <glimac/Geometry.hpp>
 #include <cstddef>
 #include <glimac/FreeflyCamera.hpp>
+#include "../../include/glimac/Image.hpp"
 
 
 #ifndef IMACGL_RENDERMANAGER_H
@@ -23,13 +27,15 @@
 class RenderManager {
 
 private:
-    glimac::SDLWindowManager* windowManager;
-    std::map<std::string,GLuint>textures;
-    std::map<std::string,GLuint>texturesSatellites;
-    std::map<std::string,glm::mat4>Matrix;
-    glimac::Sphere* MySphere;
-    glimac::Plane* MyPlane;
-    TrackballCamera Camera;
+
+    std::map<std::string,GLuint>textures; //textures des planètes
+    std::map<std::string,GLuint>texturesSatellites; // textures des satellites
+    glimac::Sphere* MySphere; // sphère
+    TrackballCamera Camera; // caméra
+    AppManager* app; // application
+    bool displaySun; // boolean indiquant si on doit afficher tout le système solaire ou une seule planètes
+    std::map<std::string, Planete>::iterator displayedPlanet; //iterator pour parcourir la map de planètesà afficher
+    std::map<std::string, Planete> system; //map contenant les planètes
 
 
 
@@ -40,31 +46,25 @@ public:
     const GLuint getTexture(std::string name);
     const GLuint getTextureSatellites(std::string name);
     glimac::Sphere *getMySphere() const;
-    glimac::SDLWindowManager *getWindowManager() const;
-    glimac::Plane *getMyPlane() const;
 
     //setters
     void setTextures( std::map<std::string, GLuint> &textures);
     void setMySphere(glimac::Sphere *MySphere);
-    void setWindowManager(glimac::SDLWindowManager *windowManager);
-    void setMyPlane(glimac::Plane *MyPlane);
-
-
 
 
     // constructors
     RenderManager();
 
     //methods
+    //void createTexture(GLuint texture, std::unique_ptr<glimac::Image>map); // permet de factoriser le code de création des textures mais map n'est pas accepté comme argument valide...
     void createTexturesPlanets();
     void createtextureSatellites();
-    void displayPlanet( Planete p);
     void initRenderManager();
-    void initWindowManager(int width, int height, const char* name);
     void initSphere();
-    void initPlane();
-    void initMatrix();
-    int renderLoop(GLuint vao,AppManager* app);
+    int renderLoop(char* arg);//boucle de rendu
+    void Control( glimac::SDLWindowManager* windowManager); // contrôles de la caméra, du zoom et de la vitesse
+
+
 
 
 

@@ -20,7 +20,7 @@ public:
     Texte();
 
     //methods
-    void display_infos();
+    void display_infos(); //affiche le texte
     void set_case_infos(int i, std::string n_infos);
 };
 

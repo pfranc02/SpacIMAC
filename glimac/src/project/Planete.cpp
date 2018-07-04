@@ -1,7 +1,10 @@
 #include <map>
 #include "project/Planete.hpp"
+#include "../../include/project/Planete.hpp"
 
 //getters
+
+
 float Planete::getAphelion() const {
     return aphelion;
 }
@@ -18,16 +21,16 @@ float Planete::getInclinaison() const {
     return inclinaison;
 }
 
-const Satellite getSatellite(std::string name){
-    return satellites[name];
-}
-
 const std::map<std::string, Satellite> &Planete::getSatellites() const {
-    return satellites;
+    return Satellites;
 }
 
-
+const Satellite Planete::getSatellite(std::string name) {
+    return Satellites[name];
+}
 //Setters
+
+
 void Planete::setAphelion(float aphelion) {
     Planete::aphelion = aphelion;
 }
@@ -44,8 +47,8 @@ void Planete::setInclinaison(float inclinaison) {
     Planete::inclinaison = inclinaison;
 }
 
-void Planete::setSatellites(const std::map<std::string, Satellite> &satellites) {
-    Planete::satellites = satellites;
+void Planete::setSatellites(const std::map<std::string, Satellite> &Satellites) {
+    Planete::Satellites = Satellites;
 }
 
 //constructor
@@ -70,7 +73,7 @@ void Planete::init_text() {
 }
 
 void Planete::create_satellite( std::string n_name, int n_diametre, float n_rot_propre, int n_sm_axis, float n_eccentricite, float n_inclinaison,float plan_aphelion) {
-    satellites["n_name"] =  Satellite(n_sm_axis,n_eccentricite,n_inclinaison,n_name,n_diametre,n_rot_propre,plan_aphelion);
+    Satellites[n_name] =  Satellite(n_sm_axis,n_eccentricite,n_inclinaison,n_name,n_diametre,n_rot_propre,plan_aphelion);
 
 }
 
@@ -81,10 +84,8 @@ int Planete::scale_diametre() {
     return getDiametre();
 }
 
-void Planete::display_satellites() {
-    for(std::map<std::string,Satellite>::iterator it = satellites.begin(); it != satellites.end(); it++){
-        std::cout << it->second.getName();
-    }
-}
+
+
+
 
 

@@ -40,11 +40,11 @@ public:
     Astre(std::string n_name, int n_diametre,std::string n_type, float n_rot_propre, int n_pos_x, int n_pos_y);
 
     //methods
-    void update_position_infos() const;
+    void update_position_infos() const; // mets à jour les coordonnées de l'astre
     virtual void init_text();
-    void display_infos() const;
-    virtual void create_satellite( std::string n_name, int n_diametre, float n_rot_propre, int n_sm_axis, float n_eccentricite, float n_inclinaison, float plan_aphelion);
-    virtual int scale_diametre();
+    void display_infos() const; //affiche les infos du texte
+    virtual int scale_diametre(); //fonction  modifiant la taille de certaines astres afin d'avoir un affichage compréhensible
+    virtual void create_satellite( std::string n_name, int n_diametre, float n_rot_propre,int n_sm_axis, float n_eccentricite, float n_inclinaison,float plan_aphelion);
 
 };
 

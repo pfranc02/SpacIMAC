@@ -1,7 +1,3 @@
-//
-// Created by Admin on 02/04/2018.
-//
-
 #include "project/Planete_gazeuse.hpp"
 
 

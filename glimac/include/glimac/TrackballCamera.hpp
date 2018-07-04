@@ -8,6 +8,9 @@ private:
     float m_fDistance;
     float m_fAngleX;
     float m_fAngleY;
+    float m_Translate_X;
+    float m_Translate_Y;
+
 public:
     TrackballCamera();
     void moveFront(float delta);
@@ -15,6 +18,12 @@ public:
     void rotateUp();
     void rotateDown();
     void rotateRight();
+    void zoomIn();
+    void zoomOut();
+    void moveLeft();
+    void moveRight();
+    void moveUp();
+    void moveDown();
     glm::mat4 getViewMatrix() const;
 };
 

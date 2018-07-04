@@ -1,5 +1,5 @@
-
 #include "project/Astre.hpp"
+#include "../../include/project/Astre.hpp"
 
 //getters
 const std::string &Astre::getName() const {
@@ -96,11 +96,14 @@ void Astre::init_text(){
 }
 
 
-void Astre::create_satellite( std::string n_name, int n_diametre, float n_rot_propre, int n_sm_axis, float n_eccentricite, float n_inclinaison,float plan_aphelion) {
-
-}
 
 int Astre::scale_diametre() {
     return 0;
+}
+
+void
+Astre::create_satellite(std::string n_name, int n_diametre, float n_rot_propre, int n_sm_axis, float n_eccentricite,
+                        float n_inclinaison, float plan_aphelion) {
+
 }
 
